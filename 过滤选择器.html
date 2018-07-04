@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li>我是第1个傻逼</li>
+			<li>我是第2个傻逼</li>
+			<li>我是第3个傻逼</li>
+			<li>我是第4个傻逼</li>
+			<li>我是第5个傻逼</li>
+			<li>我是第6个傻逼</li>
+			<li>我是第7个傻逼</li>
+			<li>我是第8个傻逼</li>
+			<li>我是第9个傻逼</li>
+			<li>我是第10个傻逼</li>
+		</ul>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("li:even").css("background-color","burlywood");
+				$("li:odd").css("background-color","cornflowerblue");
+				$("li:eq(1)").css("font-size","55px");
+//				$("li:last").css("font-size","55px");
+//				$("li:first").css("font-size","55px");
+				$("li:lt(1)").css("font-size","55px");
+				
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li id="cloth">衣服</li>
+			<li>裤子</li>
+			<li>袜子</li>
+			<li>裤衩</li>
+		</ul>
+		
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+//			$(function(){
+//				//js方法获取到的对象，也称为DOM对象
+//				var clloth=document.getElementById("cloth");
+//				cloth.style.backgroundColor="red";
+//				
+//				//jq方法获取到的对象，就是jq对象
+//				var $li=$("#cloth");
+//				$li.text("我是傻逼");
+//				
+//				//jq对象与js对象的区别
+//				//jq对象其实就是js对象的集合，伪数组
+//				var $li= $("li");
+//				$li[0].setAttribute("name","hehe");
+//			});
+			//js转换jq
+			var cloth=document.getElementById("cloth");
+			$(cloth).text("呵呵");
+			//jq转换js
+			var $li=$("li");
+			$li[3].style.backgroundColor="red";
+			$li.get(0).style.backgroundColor="red";
+		</script>
+	</body>
+</html>

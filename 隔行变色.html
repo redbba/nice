@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--<ul class="ss">
+			<li>我是第1个li</li>
+			<li>我是第2个li</li>
+			<li>我是第3个li</li>
+			<li id="four">我是第4个li</li>
+			<li>我是第5个li</li>
+			<li class="red">我是第6个li</li>
+			<li>我是第7个li</li>
+			<li>我是第8个li</li>
+			<li>我是第9个li</li>
+			<li>我是第10个li</li>
+		</ul>-->
+		
+		<div id="father">
+			<div>11</div>
+			<div>22
+			<p>2211</p>
+			<p>2221</p>
+			</div>
+			<div>33</div>
+			<div>44</div>
+			<div>55</div>
+			<p>66</p>
+			<p>77</p>
+			<p>88</p>
+		</div>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+//			$(function(){
+////				var lis=document.getElementsByTagName("li");
+//				var lis=$("li");
+//				for (var i=0;i<lis.length;i++) {
+//					if(i%2==0){
+//						lis[i].style.backgroundColor="chartreuse";
+//					}else{
+//						lis[i].style.backgroundColor="chocolate";
+//					}
+//				}
+//			});
+			//jq设置样式
+			//css(name,value)
+//			$(function(){
+//				$("#four,.red").css("background-color","#008B8B");
+////				$(".ss .red").css("background-color","red");
+//				$("li").css("color","red");
+//			});
+
+			//子代和后代选择器
+			$(function(){
+//				$("#father>p").css("background-color","red");
+				$("#father p").css("background-color","red");
+			});
+			//$("s1,s2")     并集选择器
+			//$("s1 s2")     后代选择器
+			//$("s1>s2")     子代选择器
+			//$("s1s2")      交集选择器
+		</script>
+	</body>
+</html>
